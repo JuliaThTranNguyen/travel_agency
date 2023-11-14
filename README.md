@@ -1,5 +1,5 @@
 # Build and Deploy a Fully Responsive Modern UI/UX Website | React.js, Next.js 13, Tailwind CSS, Vercel
-[![Travel Website]()]
+[![Travel Agency Website](https://travel-agency-fawn.vercel.app/)]
 ## Introduction
 If you’ve ever struggled with creating a sleek UI that also performs flawlessly, you're not alone.
 
@@ -21,3 +21,35 @@ While developing the app, you’ll:
 - make use of TypeScript
 - and many more best practices that set you apart in the industry
 
+## Project structure: 
+```
+.
+├── app
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   ├── Button.tsx
+│   ├── Camp.tsx
+│   ├── Features.tsx
+│   ├── Footer.tsx
+│   ├── GetApp.tsx
+│   ├── Guide.tsx
+│   ├── Hero.tsx
+│   └── Navbar.tsx
+├── constants
+│   └── index.ts
+├── next.config.js
+├── next-env.d.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json
+
+3 directories, 21 files
+```
+## UI/UX design
+[Screenshot1](https://user-images.githubusercontent.com/49017322/282851205-ae9f431b-38c2-4e3b-9ea3-7943886c08fa.png)
